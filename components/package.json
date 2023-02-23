@@ -5,6 +5,7 @@
   "module": "es/index.js",
   "scripts": {
     "build": "vite build",
+    "build:less": "esno build/buildLess",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "files": [
@@ -23,5 +24,9 @@
   "typings": "lib/index.d.ts",
   "dependencies": {
     "@beeuty3/utils": "workspace:^1.0.0"
+  },
+  "devDependencies": {
+    "@types/less": "^3.0.3",
+    "@types/node": "^18.14.0"
   }
 }
