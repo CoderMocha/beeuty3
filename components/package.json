@@ -1,0 +1,27 @@
+{
+  "name": "beeuty3",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "scripts": {
+    "build": "vite build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "es",
+    "lib"
+  ],
+  "keywords": [
+    "beeuty-ui",
+    "beeuty",
+    "vue3 components lib",
+    "vue3 ui lib"
+  ],
+  "author": "CoderMocha",
+  "license": "MIT",
+  "description": "",
+  "typings": "lib/index.d.ts",
+  "dependencies": {
+    "@beeuty3/utils": "workspace:^1.0.0"
+  }
+}
